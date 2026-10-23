@@ -1,0 +1,14 @@
+{
+  "title": "05 · Variable scope",
+  "category": "SYNTAX",
+  "objective": "Understand variable scope and sum the even numbers.",
+  "instructions": [
+    "sumEvens(numbers) returns the sum of the even numbers, including negatives.",
+    "Do not use Streams or external libraries."
+  ],
+  "hints": [
+    "The total variable must still exist after the loop ends.",
+    "To test for even: the remainder after dividing by 2 is 0."
+  ],
+  "level": 1
+}

@@ -1,0 +1,14 @@
+{
+  "title": "02 · Deciding with if/else",
+  "category": "SYNTAX",
+  "objective": "Design condition branches that do not overlap.",
+  "instructions": [
+    "classify(balance): <0 = \"DEBT\", =0 = \"EMPTY\", >0 = \"ACTIVE\".",
+    "Handle all three cases."
+  ],
+  "hints": [
+    "Do your three branches cover every int value?",
+    "The equals-0 condition should be its own branch."
+  ],
+  "level": 1
+}

@@ -1,0 +1,14 @@
+{
+  "title": "04 · When does while stop?",
+  "category": "SYNTAX",
+  "objective": "Control loop state to avoid an infinite loop.",
+  "instructions": [
+    "digits(n) counts the decimal digits of a non-negative int.",
+    "0 has one digit; 905 has three digits."
+  ],
+  "hints": [
+    "You can drop the last digit with integer division by 10.",
+    "Handle 0 first, or design the loop to run at least once."
+  ],
+  "level": 1
+}

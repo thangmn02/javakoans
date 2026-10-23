@@ -1,0 +1,17 @@
+{
+  "title": "18 · Fail-fast in Bank",
+  "category": "STRUCTURES",
+  "objective": "Reject bad input before changing the balance.",
+  "instructions": [
+    "A Bank is created with a non-negative balance.",
+    "withdraw(amount) rejects amount <= 0 with IllegalArgumentException.",
+    "If it exceeds the balance, throw IllegalStateException.",
+    "On failure, the balance must not change."
+  ],
+  "hints": [
+    "Check error conditions before deducting money.",
+    "An exception thrown by Java ends the method unless it is caught on the spot.",
+    "Separate the invalid-amount error from the insufficient-funds error."
+  ],
+  "level": 3
+}

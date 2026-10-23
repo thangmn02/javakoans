@@ -1,0 +1,14 @@
+{
+  "title": "09 · An index is not an ID",
+  "category": "SYNTAX",
+  "objective": "Tell an array position apart from the data stored there.",
+  "instructions": [
+    "last(numbers) returns the last element of the array.",
+    "If the array is empty, return -1."
+  ],
+  "hints": [
+    "The last index is length - 1.",
+    "Handle the empty array before accessing by index."
+  ],
+  "level": 1
+}

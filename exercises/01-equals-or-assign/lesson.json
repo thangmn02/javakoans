@@ -1,0 +1,14 @@
+{
+  "title": "01 · Assign or compare?",
+  "category": "SYNTAX",
+  "objective": "Tell assignment apart from a boolean condition.",
+  "instructions": [
+    "Write same(a, b): return true only when the two integers are equal.",
+    "Do not modify the parameters; use a comparison expression."
+  ],
+  "hints": [
+    "Know the difference between = and == in Java.",
+    "The method returns boolean, so the expression after return must be boolean."
+  ],
+  "level": 1
+}

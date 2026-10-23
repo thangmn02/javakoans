@@ -1,0 +1,14 @@
+{
+  "title": "17 · Generic is not Object",
+  "category": "STRUCTURES",
+  "objective": "Use type T consistently in the field, constructor and getter.",
+  "instructions": [
+    "Solution<T> holds one T value, without casting to Object in the API.",
+    "The constructor takes a T; get() returns T; set(T) updates the value."
+  ],
+  "hints": [
+    "If <T> is declared on the class, methods and fields can use T.",
+    "Do not declare a new <T> on each method if you want the class's T."
+  ],
+  "level": 3
+}

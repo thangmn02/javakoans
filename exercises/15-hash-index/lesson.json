@@ -1,0 +1,14 @@
+{
+  "title": "15 · Safe hash index",
+  "category": "FLOW",
+  "objective": "Compute a non-negative bucket index, even for Integer.MIN_VALUE.",
+  "instructions": [
+    "index(hash, capacity) returns a number in the range [0,capacity).",
+    "capacity is always >0. Do not use Math.abs because of MIN_VALUE."
+  ],
+  "hints": [
+    "In Java, % on a negative number can still give a negative result.",
+    "Math.floorMod handles negative numbers in a way that suits index calculation."
+  ],
+  "level": 2
+}

@@ -1,0 +1,15 @@
+{
+  "title": "06 · Constructor and this",
+  "category": "SYNTAX",
+  "objective": "Tell a field apart from a parameter with the same name.",
+  "instructions": [
+    "A Wallet must remember its initial balance.",
+    "deposit(amount) increases balance if amount > 0.",
+    "balance() returns the current balance."
+  ],
+  "hints": [
+    "this.balance is the object's field; balance is the parameter.",
+    "The constructor runs once on new Solution(initialBalance)."
+  ],
+  "level": 1
+}

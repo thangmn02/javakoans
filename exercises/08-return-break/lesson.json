@@ -1,0 +1,15 @@
+{
+  "title": "08 · return or break?",
+  "category": "SYNTAX",
+  "objective": "Find a target in a loop and exit at the right point.",
+  "instructions": [
+    "firstPositive(numbers) returns the first positive number.",
+    "If there is no positive number, return -1.",
+    "0 is not a positive number."
+  ],
+  "hints": [
+    "return ends the method immediately; break only stops the loop.",
+    "Do not return -1 before checking every element."
+  ],
+  "level": 1
+}

@@ -1,0 +1,14 @@
+{
+  "title": "07 · Two keys, one room",
+  "category": "SYNTAX",
+  "objective": "Tell modifying an Object apart from reassigning a reference variable.",
+  "instructions": [
+    "Box has one field, value. Write rename(Box box, String text) to change the Box's value.",
+    "Do not create a new Box; modify the Object the caller is holding."
+  ],
+  "hints": [
+    "Modify the field of the object you received, not the local variable box.",
+    "box.value and box = new Box(...) have different effects."
+  ],
+  "level": 1
+}

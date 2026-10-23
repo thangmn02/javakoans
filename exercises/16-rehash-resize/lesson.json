@@ -1,0 +1,16 @@
+{
+  "title": "16 · Split chains on resize",
+  "category": "STRUCTURES",
+  "objective": "Redistribute Nodes across new buckets without losing data.",
+  "instructions": [
+    "resize(old) returns a bucket array with double the capacity.",
+    "Walk every Node of the old array; move it to the new array using key % newCapacity (keys are non-negative).",
+    "No duplicates, no missing Nodes, and no cycles."
+  ],
+  "hints": [
+    "Save the old next reference before changing current.next.",
+    "The new array starts all null; you can add Nodes at the front of each bucket.",
+    "No need to create new Node objects; relink the old Nodes."
+  ],
+  "level": 3
+}

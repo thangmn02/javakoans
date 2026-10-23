@@ -1,0 +1,14 @@
+{
+  "title": "03 · Summing with for",
+  "category": "SYNTAX",
+  "objective": "Choose the start point, stop condition and accumulator yourself.",
+  "instructions": [
+    "sumTo(n) returns 1 + 2 + ... + n.",
+    "If n <= 0, return 0. Do not use streams."
+  ],
+  "hints": [
+    "What should the total variable start at?",
+    "The loop must go from 1 to n, including n."
+  ],
+  "level": 1
+}

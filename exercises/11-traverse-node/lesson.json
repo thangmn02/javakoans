@@ -1,0 +1,14 @@
+{
+  "title": "11 · Traversing a LinkedList",
+  "category": "FLOW",
+  "objective": "Find a key node by node, without returning the first value by mistake.",
+  "instructions": [
+    "get(head, key) returns the value of the Node with the matching key.",
+    "If not found, return null."
+  ],
+  "hints": [
+    "current starts as a reference to head; each iteration checks current != null.",
+    "If the key does not match, move current to next."
+  ],
+  "level": 2
+}

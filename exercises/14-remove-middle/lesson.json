@@ -1,0 +1,14 @@
+{
+  "title": "14 · Removing a middle Node",
+  "category": "FLOW",
+  "objective": "Use previous/current to bypass the Node being removed.",
+  "instructions": [
+    "remove(head, key) returns head after removing the mapping.",
+    "Handle a null head, key at the head, in the middle, at the end, and not found."
+  ],
+  "hints": [
+    "To remove a middle Node, the previous Node must point to current.next.",
+    "When the key is at head, replace head instead of using a null previous."
+  ],
+  "level": 2
+}

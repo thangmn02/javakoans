@@ -1,0 +1,16 @@
+{
+  "title": "12 · put: update or append?",
+  "category": "FLOW",
+  "objective": "Implement adding a mapping without duplicate keys.",
+  "instructions": [
+    "put(head, key, value) returns the first Node after the operation.",
+    "If the key exists, update its value; do not create a duplicate.",
+    "If the key is new, append a Node at the end. If head is null, create head."
+  ],
+  "hints": [
+    "Check for a null head before using .next.",
+    "Compare the current key before appending a node.",
+    "Do not move current all the way to null and then call current.next."
+  ],
+  "level": 2
+}

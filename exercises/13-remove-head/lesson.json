@@ -1,0 +1,15 @@
+{
+  "title": "13 · Removing the head",
+  "category": "FLOW",
+  "objective": "Update the head reference when removing the first element.",
+  "instructions": [
+    "removeHead(head) returns the new first Node.",
+    "If head is null, return null.",
+    "Do not remove the Nodes that follow."
+  ],
+  "hints": [
+    "The new first Node is the one head.next points to.",
+    "Changing the head reference is different from changing a Node's contents."
+  ],
+  "level": 2
+}

@@ -1,0 +1,14 @@
+{
+  "title": "10 · == or equals()?",
+  "category": "SYNTAX",
+  "objective": "Compare String contents instead of Object identity.",
+  "instructions": [
+    "sameOwner(a, b) returns true when the two Strings have the same content.",
+    "Assume the inputs are not null."
+  ],
+  "hints": [
+    "Two different String Objects can hold the same text.",
+    "For String, == checks for the same reference; equals checks content."
+  ],
+  "level": 1
+}
